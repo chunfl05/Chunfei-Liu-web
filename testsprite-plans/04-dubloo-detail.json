@@ -1,0 +1,14 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Opening the Dubloo project card navigates to its detail page with correct content",
+  "description": "From the projects listing, clicking the Dubloo project title opens its dedicated detail page with matching content.",
+  "priority": "p1",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Projects' link in the sidebar navigation" },
+    { "type": "action", "description": "Click the 'Dubloo' project title link" },
+    { "type": "assertion", "description": "Verify the browser navigates to a project detail page at /projects/dubloo" },
+    { "type": "assertion", "description": "Verify the detail page shows the Dubloo project title and a description mentioning restroom accessibility and interactive sorting and filtering" }
+  ]
+}

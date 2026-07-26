@@ -1,0 +1,12 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Homepage sidebar shows social links for GitHub, LinkedIn, and Email",
+  "description": "The sidebar below the navigation menu shows social icon links for the three profiles.",
+  "priority": "p2",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "assertion", "description": "Verify the sidebar shows three social icon links labeled GitHub, LinkedIn, and Email, positioned below the navigation menu" },
+    { "type": "assertion", "description": "Verify GitHub links to https://github.com/chunfl05 and Email links to camellialiu05@gmail.com" }
+  ]
+}

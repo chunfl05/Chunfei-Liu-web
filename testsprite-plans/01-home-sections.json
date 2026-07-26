@@ -1,0 +1,12 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Home page loads with profile info and all core sections",
+  "description": "Visiting the homepage shows the sidebar profile identity and the four main content sections in order.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "assertion", "description": "Verify the sidebar displays the name 'Chunfei Liu', the title 'Growth & Data Analyst', and a profile photo" },
+    { "type": "assertion", "description": "Verify the main content area shows four distinct sections in order: About, Education, Experience, and Projects, each identifiable by its content" }
+  ]
+}

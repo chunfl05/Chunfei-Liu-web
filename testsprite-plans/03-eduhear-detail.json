@@ -1,0 +1,14 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Opening the EduHear project card navigates to its detail page",
+  "description": "From the projects listing, clicking the EduHear project title opens its dedicated detail page with matching content.",
+  "priority": "p1",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Projects' link in the sidebar navigation" },
+    { "type": "action", "description": "Click the 'EduHear' project title link" },
+    { "type": "assertion", "description": "Verify the browser navigates to a project detail page at /projects/eduhear" },
+    { "type": "assertion", "description": "Verify the detail page shows the EduHear project title and a description mentioning the audio-first learning platform and database schema design" }
+  ]
+}

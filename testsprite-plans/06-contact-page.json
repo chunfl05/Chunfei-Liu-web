@@ -1,0 +1,13 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Contact nav link navigates to the contact page with working contact methods",
+  "description": "Clicking Contact in the sidebar navigation goes to /contact and shows the three contact methods with correct details.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Contact' link in the sidebar navigation" },
+    { "type": "assertion", "description": "Verify the browser navigates to the /contact page showing three contact method entries labeled Email, LinkedIn, and GitHub" },
+    { "type": "assertion", "description": "Verify the Email contact method displays the address camellialiu05@gmail.com" }
+  ]
+}

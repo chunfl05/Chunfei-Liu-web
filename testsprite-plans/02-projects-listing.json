@@ -1,0 +1,13 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Projects nav link navigates to the full projects listing page",
+  "description": "Clicking Projects in the sidebar navigation goes to /projects and lists all six portfolio projects.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Projects' link in the sidebar navigation" },
+    { "type": "assertion", "description": "Verify the browser navigates to the /projects page showing an 'All Projects' heading" },
+    { "type": "assertion", "description": "Verify the page lists six project entries titled CV Trail, Washington State Library, Healthcare Access & Outcomes Disparities, China Telecom, EduHear, and Dubloo, each with a visible technology tag list" }
+  ]
+}

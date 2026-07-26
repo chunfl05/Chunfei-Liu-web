@@ -1,0 +1,12 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Active navigation item is highlighted for the current page",
+  "description": "When the user navigates to the Contact page, the Contact nav link is visually marked active while the other nav links are not.",
+  "priority": "p2",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Contact' link in the sidebar navigation" },
+    { "type": "assertion", "description": "Verify the 'Contact' navigation link is visually highlighted as the active link in the sidebar navigation menu, while the About, Projects, and Skills links are not highlighted" }
+  ]
+}

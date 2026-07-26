@@ -1,0 +1,13 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Skills nav link navigates to the capabilities page with skill categories and tools",
+  "description": "Clicking Skills in the sidebar navigation goes to /skills and shows capability categories plus a tools and technologies list.",
+  "priority": "p1",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the homepage" },
+    { "type": "action", "description": "Click the 'Skills' link in the sidebar navigation" },
+    { "type": "assertion", "description": "Verify the browser navigates to the /skills page showing a 'Capabilities' heading with skill category cards including 'Growth & Product Analytics' and 'Full-Stack & AI Systems'" },
+    { "type": "assertion", "description": "Verify a 'Tools & Technologies' section is visible listing Programming skills including Python, SQL, R, and JavaScript / TypeScript" }
+  ]
+}

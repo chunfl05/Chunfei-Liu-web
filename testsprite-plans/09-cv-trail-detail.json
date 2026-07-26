@@ -1,0 +1,13 @@
+{
+  "projectId": "7e961cdc-a080-4dea-b058-d1ebcae6f2a2",
+  "type": "frontend",
+  "name": "Opening the CV Trail project card navigates to its detail page",
+  "description": "From the projects listing, clicking CV Trail opens the new full-stack AI project case study.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the /projects page" },
+    { "type": "action", "description": "Click the 'CV Trail' project title link" },
+    { "type": "assertion", "description": "Verify the browser navigates to /projects/cv-trail" },
+    { "type": "assertion", "description": "Verify the page describes the seven-table PostgreSQL schema, row-level security, Claude API, structural anti-fabrication safeguards, and controlled validation test" }
+  ]
+}
