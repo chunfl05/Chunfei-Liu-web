@@ -53,9 +53,10 @@ function EducationItem({
 export function EducationSection() {
   const education: EducationItemProps[] = [
     {
-      dateRange: "Incoming Sep 2027",
+      dateRange: "Expected graduation: May 2028",
       degree: "M.P.S. in Data Science and Applied Statistics",
       school: "Cornell University",
+      schoolUrl: "https://www.cornell.edu",
       location: "Ithaca, NY",
       details: [],
     },
@@ -65,7 +66,10 @@ export function EducationSection() {
       school: "University of Washington",
       schoolUrl: "https://www.washington.edu",
       location: "Seattle, WA",
-      details: ["GPA 3.87/4.00 · Dean's List for 9 quarters"],
+      details: [
+        "GPA 3.87/4.00 · Dean's List for 9 quarters",
+        "Coursework: Database & Data Modeling, Data Science Methods, Statistical Methods, Interactive Data Visualization, Data Programming, Client-Side Web Development, Product & Information Systems Management",
+      ],
     },
   ];
 

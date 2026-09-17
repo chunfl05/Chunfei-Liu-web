@@ -62,29 +62,24 @@ function ExperienceItem({
 export function ExperienceSection() {
   const experiences: ExperienceItemProps[] = [
     {
-      dateRange: "Incoming 2026",
-      title: "Growth & Data Analyst, Full-time",
-      company: "TestSprite",
-      description:
-        "Joining the team full time after completing a six-month internship focused on growth analytics, experimentation, marketing operations, and internal tooling.",
-      skills: [
-        "Growth Analytics",
-        "Experimentation",
-        "Internal Tools",
-        "Marketing Operations",
-      ],
-    },
-    {
       dateRange: "Jan 2026 — Jun 2026",
-      title: "Growth & Data Analyst Intern",
+      title: "Data Analyst Intern",
       company: "TestSprite",
       description:
-        "Designed and built an internal marketing platform that consolidated KOL sourcing, pipeline tracking, and automated SEO/GEO monitoring. Ran A/B tests across creator content and outreach channels, tracked hackathon sign-ups across three seasons to identify top-converting communities and drive roughly 2x growth, and wrote SQL/Python scripts to deduplicate the creator email database.",
+        "Built an AI-assisted marketing platform that unified KOL sourcing, pipeline tracking, and automated SEO/GEO rank monitoring, replacing fragmented Excel trackers. Ran A/B tests across creator content formats and outreach channels to compare conversion rates and refine outreach strategy. Tracked hackathon sign-ups across three seasons to identify top-converting communities and drive roughly 2x growth, and wrote SQL/Python scripts to deduplicate the creator email database.",
       skills: ["A/B Testing", "SQL", "Python", "SEO/GEO", "Internal Tools"],
     },
     {
+      dateRange: "Sep 2025 — Nov 2025",
+      title: "Product Operations Intern",
+      company: "MuleRun (Alibaba)",
+      description:
+        "Designed and ran UGC campaigns that grew a user community from 0 to 115 members and increased platform registrations by 5% within three weeks. Built a feedback-to-feature loop for AI agent products, combining user feedback analysis and comparative research to inform engineering decisions. Standardized partner outreach with templates and a tracking system, reducing average outreach time by 10%.",
+      skills: ["Product Operations", "Community Growth", "User Research", "AI Agents"],
+    },
+    {
       dateRange: "Jul 2025 — Sep 2025",
-      title: "Business Analyst Intern, Software Development Department",
+      title: "Business Analyst Intern",
       company: "China Telecom",
       description:
         "Authored three AI-module proposals using cloud resource data and vendor cost comparisons to assess feasible solutions. Analyzed historical drone flight and route data for dynamic route re-planning and optimal-path calculation, and used user-testing data and design-complexity benchmarks to support App-module requirements and cross-department prioritization.",

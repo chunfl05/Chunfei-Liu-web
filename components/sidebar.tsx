@@ -8,12 +8,9 @@ export function Sidebar() {
       <div>
         <div className="flex items-start gap-6 mb-6">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight text-highlight sm:text-5xl">
+            <h1 className="whitespace-nowrap text-2xl font-bold tracking-tight text-highlight sm:text-3xl">
               Chunfei Liu
             </h1>
-            <h2 className="mt-3 text-lg font-medium tracking-tight text-primary sm:text-xl">
-              Growth &amp; Data Analyst
-            </h2>
           </div>
           <div className="w-44 h-56 flex-shrink-0 overflow-hidden rounded-md border border-border bg-muted">
             <Image

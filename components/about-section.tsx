@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function AboutSection() {
   return (
     <section
@@ -34,25 +32,34 @@ export function AboutSection() {
             University of Washington
           </a>
           , graduating with a 3.87 GPA and Dean&apos;s List recognition for 9
-          quarters. I will begin an{" "}
+          quarters. My expected graduation from the{" "}
           <span className="font-medium text-highlight">
             M.P.S. in Data Science and Applied Statistics
           </span>{" "}
           at <span className="font-medium text-highlight">Cornell University</span>{" "}
-          in September 2027.
+          is May 2028.
         </p>
 
         <p>
-          After completing a{" "}
+          As a{" "}
           <span className="font-medium text-highlight">
-            Growth &amp; Data Analyst internship
+            Data Analyst Intern
           </span>{" "}
           at <span className="font-medium text-highlight">TestSprite</span>, I
-          am joining the team full time in 2026. During the internship, I built
-          an internal marketing platform, ran A/B tests across content and
+          built an AI-assisted marketing platform, ran A/B tests across content and
           outreach channels, and tracked hackathon acquisition across three
           seasons—helping identify top-converting communities and drive roughly
           2x growth.
+        </p>
+
+        <p>
+          At <span className="font-medium text-highlight">MuleRun (Alibaba)</span>,
+          I worked as a Product Operations Intern on AI agent products. I grew
+          a user community from 0 to 115 members and helped increase platform
+          registrations by 5% within three weeks through UGC campaigns. I also
+          turned user feedback and comparative research into input for feature
+          decisions and standardized partner outreach to reduce average outreach
+          time by 10%.
         </p>
 
         <p>
@@ -86,7 +93,7 @@ export function AboutSection() {
             Rastar Games
           </span>
           , I benchmarked 10+ games, built an RFM-style user segmentation model,
-          and tracked acquisition, retention, engagement, and monetization KPIs.
+          and synthesized retention and monetization findings into weekly reports.
         </p>
 
         <p>

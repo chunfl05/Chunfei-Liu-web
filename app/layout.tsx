@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Chunfei Liu — Growth & Data Analyst',
-  description: 'Growth and data analyst working across experimentation, product analytics, statistical analysis, and full-stack AI tools.',
+  title: 'Chunfei Liu',
+  description: 'Chunfei Liu’s portfolio: data analysis, experimentation, product operations, and full-stack AI projects.',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -3,6 +3,14 @@ import { MobileNav } from "@/components/navigation";
 
 const skillCategories = [
   {
+    title: "Product Operations & Community Growth",
+    description:
+      "Connect community campaigns, user feedback, and partner outreach with product decisions.",
+    proof:
+      "At MuleRun (Alibaba), I grew a user community from 0 to 115 members and helped increase platform registrations by 5% in three weeks. I analyzed feedback on AI agent products, produced comparative research, and standardized partner outreach to reduce average outreach time by 10%.",
+    skills: ["Product Operations", "UGC Campaigns", "User Feedback Analysis", "Partner Outreach"],
+  },
+  {
     title: "Growth & Product Analytics",
     description:
       "Turn acquisition, engagement, and conversion data into experiments and operating decisions.",
@@ -41,6 +49,7 @@ const toolsList = {
     "Python (pandas, Matplotlib, Seaborn)",
     "SQL",
     "R",
+    "MATLAB",
     "JavaScript / TypeScript",
     "HTML / CSS",
     "p5.js",
