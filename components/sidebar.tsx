@@ -11,14 +11,18 @@ export function Sidebar() {
             <h1 className="whitespace-nowrap text-2xl font-bold tracking-tight text-highlight sm:text-3xl">
               Chunfei Liu
             </h1>
+            <p className="mt-3 whitespace-nowrap text-sm font-medium tracking-wide text-primary sm:text-base">
+              Data · Product · AI
+            </p>
           </div>
           <div className="w-44 h-56 flex-shrink-0 overflow-hidden rounded-md border border-border bg-muted">
             <Image
-              src="/WechatIMG71.jpeg"
-              alt="ID photo"
-              width={320}
-              height={420}
-              className="object-cover w-full h-full"
+              src="/chunfei-portrait.png"
+              alt="Portrait of Chunfei Liu"
+              width={1024}
+              height={1024}
+              priority
+              className="object-cover object-top w-full h-full"
             />
           </div>
         </div>
